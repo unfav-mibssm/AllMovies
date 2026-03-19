@@ -711,7 +711,7 @@
       function pauseAndResume() {
         autoScrolling = false;
         clearTimeout(resumeTimer);
-        resumeTimer = setTimeout(() => { autoScrolling = true; }, 2000);
+        resumeTimer = setTimeout(() => { autoScrolling = true; }, 200);
       }
 
       function clampOffset() {
